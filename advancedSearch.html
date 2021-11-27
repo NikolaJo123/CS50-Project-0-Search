@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="google.html">
+			<img src="images/googlelogo.png" alt="" class="adv-logo">
+		</a>
+    </nav>
+    <div class="adv-container">
+        <h4 class='app-bar'>Advanced Search</h4>
+        <hr class='line'>
+		<div class="grid">
+			<h5 class='grid1'>Find pages with..</h5>
+			<h5 class="grid2">To do this in the search box</h5>
+		</div>
+		
+		<form action="https://www.google.com/search">
+			
+			
+			<div class="lvl1">
+				<div class="prt1">
+					<label class='ln1'>
+						all these words:
+					</label>
+					<input type="text" name="as_q" class="inp">
+					<label class="ln3">
+						Type the important words: tri-colour rat terrier
+					</label>
+				</div>
+				<div class="prt1">
+					<label class='ln1'>
+						this exact word or phrase:
+					</label>
+					<input type="text" name="as_q" class="inp">
+					<label class="ln3">
+						Put exact words in quotes: "rat terrier"
+					</label>
+				</div>
+				<div class="prt1">
+					<label class='ln1'>
+						any of these these words:
+					</label>
+					<input type="text" name="as_q" class="inp">
+					<label class="ln3">
+						Type OR between all the words you want:  miniature OR standard
+					</label>
+				</div>
+				<div class="prt1">
+					<label class='ln1'>
+						none of these these words:
+					</label>
+					<input type="text" name="as_q" class="inp">
+					<label class="ln3">
+						Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+					<label>
+				</div>
+				<div class="prt1">
+					<label class='ln1'>
+						numbers ranging from
+					</label>
+					<input type="text" name="as_q" class="inp2">
+					<label class='bet'>to</label>
+					<input type="text" name="as_q" class="inp2">
+					<label class="ln3">
+						Put two full stops between the numbers and add a unit of measurement:  10..35 kg, £300..£500, 2010..2011
+					</label>
+				</div>
+			</div>
+			</br>
+			<hr class='line'>
+			</br>
+			<div class="gridp2">
+                <h5 class="grid1p2">Then narrow your results by..</h5>
+            </div>
+			
+			<div class="prt1">
+				<label class="left">
+					language:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="">any language</option>
+					<option value="lang_en">English</option>
+					<option value="lang_en">Russian</option>
+					<option value="lang_en">German</option>
+					<option value="lang_en">Italian</option>
+					<option value="lang_en">Spanish</option>
+					<option value="lang_en">Chinese</option>
+					<option value="lang_en">Japanese</option>
+					<option value="lang_en">Macedonian</option>
+					<option value="lang_en">Albanian</option>
+					<option value="lang_hi">Hindi</option>
+				</select>
+				<label class="right">
+					Find pages in the language that you select.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					Region:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="">any region</option>
+					<option value="countryAF">Afghanistan</option>
+					<option value="countryAL">Albania</option>
+					<option value="countryAR">Argentina</option>
+					<option value="countryBR">Brazil</option>
+					<option value="countryBE">Belgium</option>
+					<option value="countryCA">Canada</option>
+					<option value="countryMA">Macedonia</option>
+					<option value="countryRU">Russia</option>
+					<option value="countryUS">US</option>
+					<option value="countryUK">UK</option>
+					<option value="countryCH">China</option>
+					<option value="countryJA">Japan</option>
+					<option value="countryIN">India</option>
+					<option value="countryUZ">Uzbekistan</option>
+					<option value="countryIT">Italy</option>
+					<option value="countryPH">The Philipines</option>
+					<option value="countryTH">Thailand</option>
+					<option value="countryAU">Australia</option>
+					<option value="countryEG">Egypt</option>
+					<option value="countrySA">Saudi Arabia</option>
+					<option value="countryCM">Cameroon</option>
+					<option value="countryMA">Marocoo</option>
+					<option value="countryAF">South Afrika</option>
+				</select>
+				<label class="right">
+					Find pages published in a particular region.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					Last update:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="all">anytime</option>
+                    <option value="d">past 24 hours</option>
+                    <option value="w">pass week</option>
+                    <option value="m">past month</option>
+                    <option value="y">past year</option>
+				</select>
+				<label class="right">
+					Find pages updated within the time that you specify.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class='left'>
+					site or domain:
+				</label>
+				<input type="text" name="as_q" class="inpp">
+				<label class="right">
+					Search one site (like  wikipedia.org ) or limit your results to a domain like  .edu, .org or .gov
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					terms appearing:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="">anywhere in the page</option>
+                    <option value="title">in the title of the page</option>
+                    <option value="body">in the text of the page</option>
+                    <option value="url">in the URL of the page</option>
+                    <option value="link">in the links to page</option>
+				</select>
+				<label class="right">
+					Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					SafeSearch:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="images">Hide explicit results</option>
+                    <option value="active">Show explicit results</option>
+				</select>
+				<label class="right">
+					Tell SafeSearch whether to filter sexually explicit content.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					File type:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="">any format</option>
+                    <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                    <option value="xls">Microsoft excel (.xls)</option>
+                    <option value="ppt">Microsoft PowerPoint(.ppt)</option>
+                    <option value="rtf">Rich Text Format (.rtf)</option>
+				</select>
+				<label class="right">
+					Find pages in the format that you prefer.
+				</label>
+			</div>
+			<div class="prt1">
+				<label class="left">
+					usage rights:
+				</label>
+				<select name="lr" id="" class="inpp">
+					<option value="">all</option>
+                    <option value="sur%3Acl">not filtered by licence</option>
+                    <option value="sur:ol">free to use or share</option>
+					<option value="sur:ol">free to use or share, even commercialy</option>
+					<option value="sur:ol">free to use or modify</option>
+					<option value="sur:ol">free to use, share or modify, even commercially</option>
+				</select>
+				<label class="right">
+					Find pages that you are free to use yourself.
+				</label>
+			</div>
+			</br>
+			 <button type="submit" class="btn">Advanced Search</button>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			
+            
+        
+				
+        </form>
+        
+    </div>
+</body>
+</html>
